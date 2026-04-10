@@ -51,9 +51,155 @@
 .header-btn {
     font-weight: 400;
     font-size: 13px;
-    line-height: 100%;  
+    line-height: 100%;
     background: #FA9021;
     padding: 10px 28px;
     border-radius: 6px;
     color: #FFFFFF;
+}
+
+body {
+    background: #050505;
+    color: #fff;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.left {
+    max-width: 520px;
+}
+
+.left .tag {
+    color: #ff8c1a;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+
+.right {
+    position: relative;
+}
+
+.controller {
+    width: 420px;
+    filter: drop-shadow(0 25px 50px rgba(0, 0, 0, 0.7));
+}
+
+.curve {
+    position: absolute;
+    right: 120px;
+    top: -150px;
+    width: 140px;
+    height: 600px;
+    border-right: 5px solid #fff;
+    border-radius: 100px;
+    opacity: .8;
+}
+
+.tag {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 155%;
+    color: #E87D0E;
+}
+
+.tag-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 155%;
+    color: #FFFFFF;
+    width: 480px;
+    margin-top: 17px;
+    margin-bottom: 26px;
+}
+
+.tag-text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 200%;
+    letter-spacing: 0%;
+    width: 527px;
+    margin-bottom: 50px;
+}
+
+.main-btn {
+    font-weight: 500;
+    font-size: 16px;
+    background: #FA8305;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border-radius: 40px;
+}
+
+.followers-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px; 
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.followers-card {
+    flex: 1;
+    max-width: 250px; 
+}
+
+.followers-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover;
+    border-radius: 20px; 
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+.followers-text {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+}
+
+.followers-header {
+    display: flex;         
+    justify-content: space-around;
+    align-items: center;    
+    margin-bottom: 25px;     
+    width: 100%;            
+}
+
+.wrap-title {
+    color: #ffffff;
+    font-size: 24px;          
+    font-weight: 700;       
+    margin: 0;                
+}
+
+.wrap-btn {
+    background-color: #2a2a2a; 
+    color: #ffffff;
+    border: none;
+    padding: 10px 22px;       
+    border-radius: 8px;      
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
 }
