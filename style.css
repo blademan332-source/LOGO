@@ -368,8 +368,133 @@ form {
     border-radius: 8px;
 }
 
-input{
+input {
     padding: 4px 22px;
     border: none;
     outline: none;
+}
+
+
+.container {
+    padding: 40px;
+}
+
+.team-title {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+}
+
+.team-container {
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+    width: 295px;
+    height: 260px;
+    background: #2a1a12;
+    border-radius: 18px;
+    text-align: center;
+    padding: 25px 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.card-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 202.99999999999997%;
+}
+
+.card-text {
+    color:#E8E8E8;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 202.99999999999997%;
+}
+
+.footer {
+    background: #000;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px 30px;
+}
+
+.footer-box {
+    width: 30%;
+}
+
+.footer-logo {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.footer-title {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer-text {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    width: 372px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 25px;
+}
+
+.footer-username {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.footer-link {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.footer-link:hover {
+    color: #fff;
+}
+
+.footer-phone {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #222;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer-copy {
+    font-size: 13px;
+    color: #FFFFFF;
 }
