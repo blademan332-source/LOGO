@@ -417,7 +417,7 @@ input {
 }
 
 .card-text {
-    color:#E8E8E8;
+    color: #E8E8E8;
     font-weight: 300;
     font-size: 16px;
     line-height: 202.99999999999997%;
@@ -493,4 +493,64 @@ input {
 .footer-copy {
     font-size: 13px;
     color: #FFFFFF;
+}
+
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 189px;
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 472px;
+    color: #FFFFFF;
+}
+
+.about-title-one {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 536px;
+    margin-top: 43px;
+    margin-bottom: 18px;
+    color: #FFFFFF;
+}
+
+.about-title-two {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 508px;
+    color: #FFFFFF;
+    margin-bottom: 46px;
+}
+
+.about-btn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+    background: #DC7000;
+    padding: 13px 45px;
+    border: none;
+}
+
+.about-img{
+    width: 496px;
+    height: 489px;
 }
