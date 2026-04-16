@@ -554,3 +554,63 @@ input {
     width: 496px;
     height: 489px;
 }
+
+.section {
+  height: 100vh;
+  background: url('./Rectangle\ 5.png') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  width: 80%;
+  text-align: center;
+  color: #fff;
+  padding: 50px 20px;
+}
+
+.title {
+  font-size: 26px;
+  max-width: 700px;
+  margin: 0 auto 15px;
+}
+
+.desc {
+  font-size: 14px;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  color: #ccc;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.card {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 10px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-img {
+  width: 30px;
+  height: 30px;
+}
+
+.card-text {
+  font-size: 13px;
+  color: #ddd;
+}
