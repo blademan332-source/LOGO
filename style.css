@@ -614,3 +614,11 @@ input {
   font-size: 13px;
   color: #ddd;
 }
+
+.service-cards{
+    display: flex;
+    gap: 30px;
+}
+.service-cards .card{
+    background: none;
+}
